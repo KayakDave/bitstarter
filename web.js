@@ -8,7 +8,7 @@ response.send("Hello");
    fs.readFileSync('index.html', function(err,data) {
       if (err) throw err;
    var buffer = buf.toString(data);
-   response.send(buffer));
+   response.send(buffer);
   });
 });
 
